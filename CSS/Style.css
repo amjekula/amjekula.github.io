@@ -1,0 +1,287 @@
+
+body{
+    max-width: 990px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+
+    border-left: 1px purple solid;
+    border-right: 1px purple solid;
+    margin-left:15px;
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+    #siderbar{
+        width: 100%;
+        float: none;
+    }
+
+    /*.container{
+        width: 100%;
+        float: none;
+    }*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container h3{
+    font-size: 25px;
+}
+#logo li{
+    display: inline;
+}
+
+#logo ul{
+    padding:0px;
+    list-style: none;
+}
+
+.search-box{
+    display: inline;
+    background:purple;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+
+.search-box:hover > .search-txt{
+    width:150px;
+}
+.search-button{
+    color:white;
+    background: purple;
+
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    padding: 0%;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0;
+}
+
+.button{
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: purple;
+    color: white;
+}
+
+#main-header{
+    background-color: purple;
+    color: white;
+}
+
+#main-sub h3{
+    color: purple;
+}
+
+
+#navbar{
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    background: purple;
+    color: white;
+    border-radius: 7px;
+}
+
+.main{
+    float: left;
+    width: 60%;
+    padding: 0 30px;
+    
+    border-left: 5px rgb(202, 36, 105) solid;
+    margin-left:15px;
+    box-sizing: border-box;
+}
+
+.main h1, h2, h3{
+    color: purple;
+}
+
+#main{
+    float: left;
+    width: 60%;
+    padding: 0 30px
+}
+
+#main h1, h2{
+    color: purple;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar h1{
+    color: purple;
+}
+
+#sidebar img{
+    width: 30px;
+    display: -webkit-inline-box;
+}
+
+#main-footer{
+    background: purple;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#block{
+    float: left;
+    width: 32%;
+    border:3px solid purple;
+    padding:10px;
+    box-sizing: border-box;
+}
+#block-sub{
+    float: left;
+    width: 32%;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#block-sub h5{
+    color: white;
+    font-size: 16px;
+}
+
+#block img{
+    max-width: 230px;
+    height: 150px;
+}
+
+#block video{
+    width: 230px;
+    height: 150px;
+}
+
+ font{
+    color: purple;
+}
+
+#Donate h1, h2, h3{
+    color: purple;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:460px;
+}
+
+.my-form h1{
+    color: purple;
+}
+
+@keyframes showcase{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+
+    95%{
+        left: -300%;
+    }
+  
+}
+#showcase{
+    overflow: hidden;
+}  
+
+#showcase figure img{
+    width: 10%;
+    float: left;
+}  
+
+#showcase figure{
+    position: relative;
+    width: 500%;
+    margin: 0%;
+    left: 0%;
+    text-align: left;
+    font-size: 0%;
+    animation: 20s showcase infinite;
+    animation-iteration-count: infinite;
+}  
